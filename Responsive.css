@@ -1,0 +1,176 @@
+/* Tablet-Reasponsive */
+
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  /* HEADER STYLING */
+
+  .header-content {
+    width: 95%;
+  }
+
+  /* .hidden {
+    display: none;
+  } */
+
+  .main-menu-items {
+    margin-left: 20px;
+  }
+
+  /* HERO SECTION STYLING */
+
+  .hero-section {
+    width: 95%;
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .left-hero-section-title {
+    font-size: 45px;
+  }
+
+  .left-hero-section-p {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .left-hero-section-p-2 {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .haro-searchbar-placeholder {
+    width: 95%;
+  }
+
+  .hero-img {
+    width: 100%;
+    padding-top: 50px;
+  }
+
+  /* Pakage-section-styling */
+
+  .pakage-1 {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+
+  .left-pakage-section {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .left-pakage-heading {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .right-pakage-img {
+    width: 300px;
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+
+  .small-3sections {
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+/* Mobile-Responsive */
+
+@media only screen and (max-width: 600px) {
+  /* HEADER STYLING */
+
+  .header-content {
+    width: 95%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .main-menu-items {
+    margin-left: 20px;
+  }
+
+  /* HERO SECTION STYLING */
+
+  .hero-section {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-hero-section-title {
+    font-size: 45px;
+  }
+
+  .left-hero-section-p {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .left-hero-section-p-2 {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  .haro-searchbar-placeholder {
+    width: 95%;
+  }
+
+  .hero-img {
+    width: 95%;
+    padding-top: 50px;
+  }
+
+  /* Pakage-section-styling */
+
+  .pakage-1 {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .left-pakage-section {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .left-pakage-heading {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .right-pakage-img {
+    width: 300px;
+    padding-right: 15px;
+  }
+
+  .small-3sections {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
